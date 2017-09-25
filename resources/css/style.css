@@ -7,11 +7,11 @@ html {
   text-align: center;
 }
 
-/*borders for designing*/
+/*borders for designing
 header, nav, img, body, div {
   border: 1px solid white;
 }
-
+*/
 header {
   position: fixed;
   top: 0px;
@@ -122,3 +122,55 @@ body {
   padding: 0px;
 }
 /*because we're inevitably one commit behind*/
+
+.locations {
+  margin-top: 75px;
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.locations h2 {
+  align-items: baseline;
+  margin: 50px 0px 0px 0px;
+  padding-bottom: 15px;
+}
+
+.locations h3, .locations p {
+  padding: 10px 0px;
+}
+
+.sites {
+  display: flex;
+  justify-content: center;
+}
+
+.site {
+  flex-shrink: 2;
+  flex-basis: 300px;
+  max-width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.contact {
+  height: 200px;
+  display: block;
+  align-items: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: seashell;
+}
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
